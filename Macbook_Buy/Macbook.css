@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card
+{
+    width: 371px;
+    height: 261px;
+    background-image: url(../Macbook_Buy/image/macbook_1.png);
+    background-size: cover;
+    background-position-y: center;
+    border-top: 1px solid black;
+    border-bottom: 4px solid black;
+    border-left: 1.6px solid black;
+    border-right: 1.6px solid black;
+    border-radius: 16px;
+    background-color: rgb(232, 231, 231);
+    transition: 0.9s;
+    display: flex;
+    flex-direction: column-reverse;       
+}
+.card:hover {
+    background-image: url(../Macbook_Buy/image/macbook.png);
+  
+    
+}
+.card:hover .content
+{
+    visibility: visible;
+   
+}
+.content
+{
+    width: 371px;
+    height: 30%;
+    border-radius: 0px 0px 16px 16px;
+    backdrop-filter: blur(0.9px);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    visibility: hidden;   
+}
+p
+{
+    background-color: #021A28;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px 27px 1px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 2.5px 0.4px #0a5680;   
+}
