@@ -18,7 +18,7 @@
     width: 150px;
     height: 300px;
     border-radius: 10px;
-    background-image: url(../Mercedes_Card/image/g63.jpg);
+    background-image: url(./image/g63.jpg);
     background-size:cover;
     background-position: center;    
 }
@@ -32,7 +32,7 @@
     width: 150px;
     height: 300px;
     border-radius: 10px;
-    background-image: url(../Mercedes_Card/image/Coupe.jpg);
+    background-image: url(./image/Coupe.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -45,7 +45,7 @@
     width: 150px;
     height: 300px;
     border-radius: 10px;
-    background-image: url(../Mercedes_Card/image/Sedan.jpg);
+    background-image: url(./image/Sedan.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -60,7 +60,7 @@
     width: 150px;
     height: 300px;
     border-radius: 10px;
-    background-image: url(../Mercedes_Card/image/GT.jpg);
+    background-image: url(./image/GT.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -73,7 +73,7 @@
     width: 150px;
     height: 300px;
     border-radius: 10px;
-    background-image: url(../Mercedes_Card/image/Visoun_Gran.jpg);
+    background-image: url(./image/Visoun_Gran.jpg);
     background-size: cover;
     background-position: center;
 }
